@@ -15,7 +15,6 @@ public class WishListService {
     }
 
     public List<WishList> findAll() {
-//        repository.deleteAll();
         return repository.findAll();
     }
 
